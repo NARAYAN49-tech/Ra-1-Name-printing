@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="ravan.css" />
+  </head>
+  <body>
+    <h1 class="animate">Ravan</h1>
+    <img src="1_dice.png" alt="" id="dice" />
+
+    <script>
+      let h1 = document.querySelector("h1");
+      let prm = prompt("What is your Name","Ra - 1");
+      h1.innerHTML = prm;
+      h1.style.color = "green";
+      async function changeColor(color, rej) {
+        if (h1.style.color == "green") {
+          h1.style.color = "red";
+        } else {
+          h1.style.color = "red";
+        }
+      }
+      changeColor(red, 2000);
+      let hr = document.createElement("hr");
+      hr.style.color = "green";
+      let container = document.createElement("div");
+      container.style.height= 500px;
+      container.style.width = 400px;
+      container.style.border-width = 5px;
+      container.style.borderColor = red;
+      container.style.borderRadius = 5em;
+      container.textContent = "Lorem ipsum dolor is the finite number of student of which lose the finite numbdr if stydenr t te eosdndksd sdknfksnc  kasnvknxkc kx sfkdsfns sijd skdjnsxlz;x sfksfk aik sd sfksd";
+      container.style.CSSRotate("50deg");
+    </script>
+  </body>
+</html>
